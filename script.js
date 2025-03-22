@@ -1,4 +1,4 @@
-// Song list
+
 const songs = [
     {
         title: "BELIEVER",
@@ -36,10 +36,9 @@ function loadSong(song) {
     cover.src = song.cover;
 }
 
-// Load initial song
 loadSong(songs[songIndex]);
 
-// Play/Pause functionality
+
 function playSong() {
     audio.play();
     playBtn.innerText = "Pause";
@@ -58,7 +57,7 @@ playBtn.addEventListener('click', () => {
     }
 });
 
-// Next Song
+
 function nextSong() {
     songIndex++;
     if (songIndex >= songs.length) {
@@ -68,7 +67,7 @@ function nextSong() {
     playSong();
 }
 
-// Previous Song
+
 function prevSong() {
     songIndex--;
     if (songIndex < 0) {
@@ -78,6 +77,6 @@ function prevSong() {
     playSong();
 }
 
-// Button event listeners
+
 nextBtn.addEventListener('click', nextSong);
 prevBtn.addEventListener('click', prevSong);
