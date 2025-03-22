@@ -9,13 +9,13 @@ const songs = [
     {
         title: "BLANK SPACE",
         artist: "Taylor Swift",
-        src: "song2.mp3",
+        src: "song2 link",
         cover: "https://i.ytimg.com/vi/z0PlHSOdp44/maxresdefault.jpg"
     },
     {
         title: "FRI(END)S",
         artist: "V(BTS)",
-        src: "song3.mp3",
+        src: "song3 link",
         cover: "https://i.ytimg.com/vi/dyZkMmTJ8Lw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGBMgNCh_MA8=&rs=AOn4CLCe6BqxlI4-VEcAjmw5Mmt_VvQY4w"
     }
 ];
